@@ -1,0 +1,122 @@
+Last login: Mon Sep 16 17:29:09 on ttys027
+jachymurban@Jachym-Air ~ % sqlite 3 intro.db 
+zsh: command not found: sqlite
+jachymurban@Jachym-Air ~ % sqlite3 intro.db 
+SQLite version 3.46.1 2024-08-13 09:16:08
+Enter ".help" for usage hints.
+sqlite> .shell clear 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sqlite> CREATE TABLE users( 
+(x1...> id INTERGER PRIMARY KEY,
+(x1...> name TEXT NOT NULL, 
+(x1...> username TEXT NOT NULL, 
+(x1...> email TEXT, 
+(x1...> age INTEGER, 
+(x1...> created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+(x1...> ); 
+sqlite> .tables 
+users
+sqlite> .schema 
+CREATE TABLE users( 
+id INTERGER PRIMARY KEY,
+name TEXT NOT NULL, 
+username TEXT NOT NULL, 
+email TEXT, 
+age INTEGER, 
+created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+sqlite> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
